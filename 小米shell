@@ -1,0 +1,5 @@
+-- 小米录音机--停止录音
+am start "intent:#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x14600000;component=com.android.soundrecorder/.SoundRecorder;B.extra_short_cuts_stop_record=true;B.extra_is_short_cuts_intent=true;B.extra_short_cuts_start_record=false;end"
+
+-- 小米录音机--开始录音
+am start "intent:#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x14600000;component=com.android.soundrecorder/.SoundRecorder;B.extra_short_cuts_stop_record=false;B.extra_is_short_cuts_intent=true;B.extra_short_cuts_start_record=true;end"
